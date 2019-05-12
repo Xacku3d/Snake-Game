@@ -66,6 +66,8 @@ window.onload = function() {
                 currentPlace.style.backgroundColor = 'rgb(245, 245, 245)';
             }
         }
+        gameSpeed = 300;
+        speedLevel = 1;
         x = 20;
         y = 20;
         xTotal = [x];
