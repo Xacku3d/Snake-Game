@@ -162,7 +162,7 @@ window.onload = function() {
             renderSnake(xNew,yNew);
             xTotal.unshift(xNew);
             yTotal.unshift(yNew);
-            currentGameSpeed.textContent = `Score: ${score} | Speed Level: ${speedLevel} | Score: ${score*speedLevel}`;
+            currentGameSpeed.textContent = `Stage: ${score} | Speed Level: ${speedLevel} | Score: ${score*speedLevel}`;
         } else {
             renderSnake(xNew,yNew);
             xTotal.unshift(xNew);
